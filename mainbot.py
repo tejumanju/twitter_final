@@ -41,6 +41,6 @@ def emoji_follower_count(user):
         print(f'Updating twitter profile: {emoji_follower_count(user)}')
         print("Waiting to refresh..")
         time.sleep(60)
-
+ 
 
         
