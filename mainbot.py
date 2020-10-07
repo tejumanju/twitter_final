@@ -37,11 +37,11 @@ def emoji_follower_count(user):
         
         user = api.get_user('the_ameen_manna')
 
-        api.update_profile(name=f'Tejashree M|{emoji_follower_count(user)} Followers')
+        api.update_profile(name=f'tejumanju|{emoji_follower_count(user)} Followers')
         print(f'Updating twitter profile: {emoji_follower_count(user)}')
         print("Waiting to refresh..")
         time.sleep(60)
  
-                
+                  
        
           
